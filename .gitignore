@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Project specific
+Videos/
+Output/
+uploads/
+temp_segments*/
+*.mp3
+*.mp4
+*.srt
+
+# System
+.DS_Store
+Thumbs.db
