@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: video-translator
+    env: docker
+    region: ohio
+    plan: free
+    branch: main
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
