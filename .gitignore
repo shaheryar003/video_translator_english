@@ -17,3 +17,109 @@ temp_segments*/
 # System
 .DS_Store
 Thumbs.db
+
+# >>> github-prep managed block >>>
+# ---- managed block: dependencies & build output ----
+node_modules/
+bower_components/
+jspm_packages/
+.pnp/
+.pnp.js
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.turbo/
+.parcel-cache/
+.cache/
+target/
+bin/obj/
+*.tsbuildinfo
+
+# ---- secrets: never commit ----
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+!.env*.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+credentials.json
+credentials*.json
+serviceAccount*.json
+service-account*.json
+client_secret*.json
+*token.json
+secrets.*
+.netrc
+id_rsa*
+id_ed25519*
+
+# ---- keep intentional placeholders ----
+!.gitkeep
+!**/.gitkeep
+
+# ---- local / editor / OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.playwright-mcp/
+
+# ---- logs & temp ----
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+coverage/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+tmp/
+temp/
+
+# ---- large binaries / model & media artifacts ----
+*.ckpt
+*.safetensors
+*.bin
+*.tar
+*.tar.gz
+*.7z
+*.iso
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# ---- project-specific ----
+uploads/
+outputs/
+output/
+*.mp4
+*.mp3
+*.wav
+temp/
+# <<< github-prep managed block <<<

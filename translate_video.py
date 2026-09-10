@@ -10,9 +10,6 @@ import shutil
 
 # --- Configuration ---
 API_KEY = os.environ.get("OPENAI_API_KEY")
-if not API_KEY:
-    # Fallback to the hardcoded one if not in env, though it's recommended to use env vars
-    API_KEY = "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"
 
 # Voice for TTS (alloy, ash, coral, echo, fable, onyx, nova, shimmer)
 TTS_VOICE = "onyx" 
